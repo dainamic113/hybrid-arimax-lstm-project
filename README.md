@@ -2,7 +2,7 @@
 
 This project applies advanced time series modeling techniques to forecast the daily closing prices of the Invesco DB Oil Fund (DBO), an oil-backed ETF. It combines traditional statistical modeling (ARIMAX) with deep learning (LSTM) in a hybrid framework to capture both linear and nonlinear market dynamics.
 
-## 📌 Project Overview
+## Project Overview
 
 - **Objective:** Improve forecasting accuracy for DBO prices by leveraging a hybrid model that combines ARIMAX and LSTM.
 - **Scope:** Evaluate standalone ARIMAX, standalone LSTM, and a hybrid ARIMAX-LSTM model using historical financial and economic data from 2010 to 2025.
@@ -11,7 +11,7 @@ This project applies advanced time series modeling techniques to forecast the da
   - Exogenous variables: WTI crude oil prices and USD index (DXY)
   - Technical indicators: Moving Averages, RSI, etc.
 
-## 🛠️ Models Used
+## Models Used
 
 ### 1. **ARIMAX**
 - Captures linear temporal patterns with exogenous variables.
@@ -26,7 +26,7 @@ This project applies advanced time series modeling techniques to forecast the da
 - Stage 2: LSTM models ARIMAX residuals to capture nonlinear components.
 - Final output = ARIMAX forecast + LSTM residual prediction.
 
-## 📊 Results Summary
+## Results Summary
 
 | Model   | MAE   | MAPE (%) | RMSE  |
 |---------|-------|----------|--------|
@@ -43,17 +43,16 @@ The hybrid model significantly outperformed standalone models, especially during
 
 ## 📄 Files in this Repo
 
-- `DBO Price Prediction.ipynb`: Final Jupyter Notebook with complete workflow
-- `IEEE_Conference_Template.pdf`: 2-page IEEE-format summary report
-- `github_link.txt`: Your GitHub repo link (submit this as needed)
+- `DBO Price Forecasting.ipynb`: Final Jupyter Notebook with complete workflow
+- `Hybrid_ARIMAX-LSTM_Modeling_for_Oil_ETF_Price_Forecasting.pdf`: 2-page IEEE-format summary report
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - Hybrid models enhance financial forecasting by leveraging complementary strengths.
 - LSTM captures nonlinearity, while ARIMAX handles temporal autocorrelation with exogenous factors.
 - Future improvements could include sentiment analysis and transformer models.
 
-## 👨‍💻 Author
+## Author
 
 Chenming Dai  
 Department of Economics  
@@ -62,6 +61,4 @@ Email: cmdai@umich.edu
 
 ---
 
-📅 **Submission Deadline:** April 22, 2025  
-📄 **Report Format:** IEEE 2-page conference paper  
 📁 **Course:** STATS 507 – Data Science Analytics using Python
