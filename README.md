@@ -36,12 +36,12 @@ This project applies advanced time series modeling techniques to forecast the da
 
 The hybrid model significantly outperformed standalone models, especially during periods of volatility.
 
-## 📈 Visualization
+## Visualization
 
 - Figure: Model forecasts vs actual prices (May 2024–Apr 2025)
 - Observations: Hybrid model tracks actual prices most closely.
 
-## 📄 Files in this Repo
+## Files in this Repo
 
 - `DBO Price Forecasting.ipynb`: Final Jupyter Notebook with complete workflow
 - `Hybrid_ARIMAX-LSTM_Modeling_for_Oil_ETF_Price_Forecasting.pdf`: 2-page IEEE-format summary report
@@ -61,4 +61,4 @@ Email: cmdai@umich.edu
 
 ---
 
-📁 **Course:** STATS 507 – Data Science Analytics using Python
+**Course:** STATS 507 – Data Science Analytics using Python
